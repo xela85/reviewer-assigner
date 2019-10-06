@@ -10,6 +10,7 @@ lazy val root = (project in file("."))
     name := "bot-review",
     libraryDependencies ++= Seq(scalaTest % Test,
       "org.scalacheck" %% "scalacheck" % "1.14.1" % "test",
+      "org.typelevel" %% "cats-effect" % "2.0.0",
       "org.typelevel" %% "cats-core" % "2.0.0")
   )
 
